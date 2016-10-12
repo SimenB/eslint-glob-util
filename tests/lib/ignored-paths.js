@@ -135,6 +135,16 @@ describe("IgnoredPaths", function() {
             assert.include(ignorePatterns, "sampleignorepattern");
         });
 
+        it("should load custom ignore file when explicitly passed", function() {
+            const expectedIgnoreFile = getFixturePath(".customignore");
+            const ignoredPaths = new IgnoredPaths({ ignore: true, cwd: getFixturePath(), ignoreFileName: ".customignore" });
+            const ignorePatterns = getIgnorePatterns(ignoredPaths);
+
+            assert.isNotNull(ignoredPaths.baseDir);
+            assert.equal(getIgnoreFiles(ignoredPaths), expectedIgnoreFile);
+            assert.include(ignorePatterns, "sampleignorepatterncustom");
+        });
+
         it("should set baseDir to cwd when no ignore file was loaded", function() {
             const ignoredPaths = new IgnoredPaths({ cwd: getFixturePath("no-ignore-file") });
 
