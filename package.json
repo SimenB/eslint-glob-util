@@ -1,6 +1,6 @@
 {
   "name": "@simenb/eslint-file-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Nicholas C. Zakas <nicholas+npm@nczconsulting.com>",
   "description": "Utilities used to traverse the file system in ESLint",
   "main": "./lib/api.js",
