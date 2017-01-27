@@ -19,16 +19,16 @@
     "glob": "^7.0.3",
     "ignore": "^3.1.5",
     "lodash": "^4.0.0",
-    "shelljs": "^0.6.0"
+    "shelljs": "^0.7.6"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "coveralls": "2.11.4",
+    "coveralls": "2.11.15",
     "eslint": "^3.7.1",
     "eslint-config-eslint": "^3.0.0",
-    "eslint-plugin-node": "^2.0.0",
+    "eslint-plugin-node": "^3.0.5",
     "eslint-release": "^0.10.0",
-    "mocha": "^2.4.5",
+    "mocha": "^3.2.0",
     "sinon": "^1.17.2"
   },
   "keywords": [
