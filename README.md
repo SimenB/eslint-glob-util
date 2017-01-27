@@ -8,6 +8,8 @@
 
 # ESLint
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SimenB/eslint-glob-util.svg)](https://greenkeeper.io/)
+
 [Website](http://eslint.org) |
 [Configuring](http://eslint.org/docs/user-guide/configuring) |
 [Rules](http://eslint.org/docs/rules/) |
