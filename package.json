@@ -24,7 +24,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "2.11.4",
-    "eslint": "^3.7.1",
+    "eslint": "^7.4.0",
     "eslint-config-eslint": "^3.0.0",
     "eslint-plugin-node": "^2.0.0",
     "eslint-release": "^0.10.0",
